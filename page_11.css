@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 5, 14);
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    font-weight: 500;
+}
+
+#nav h2 {
+    font-size: 23px;
+}
+
+#nav h2 span {
+    color: #6B696F;
+    font-weight: 600;
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+
+#nav-part2 h3 {
+    color: #6B696F;
+    font-weight: 600;
+}
+
+#contant {
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#left-contant {
+    width: 69%;
+    height: 100%;
+    background-color: #181816;
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url(https://necatikcl.dev/images/card-hello-background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#left-nav {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-nav #box {
+    width: 80px;
+    height: 80px;
+    background-image: url("https://necatikcl.dev/images/card-hello-memoji.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#left-nav1 {
+    display: flex;
+    gap: 50px;
+    line-height: 1;
+}
+
+#left-nav1 h2 span {
+    font-size: 15px;
+    color: #6B696F;
+}
+
+#right-nav2 {
+    display: flex;
+    gap: 15px;
+}
+
+#right-nav2 #box1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .02);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#right-nav2 #box1 i {
+    font-size: 35px;
+    color: white;
+
+
+}
+
+#right-nav2 #box2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .02);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-nav2 #box2 i {
+    font-size: 35px;
+}
+
+#right-nav2 #box3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .02);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-nav2 #box3 i {
+    font-size: 35px;
+}
+
+#text {
+    padding-left: 50px;
+    line-height: 1;
+}
+
+#text h2 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#pra {
+    padding-left: 50px;
+    line-height: 1;
+    padding-top: 50px;
+}
+
+#pra h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #A1A4AA;
+}
+
+#right-contant {
+    width: 29%;
+    height: 100%;
+    background-color: #ffd951;
+    border-radius: 20px;
+    background-image: url(https://necatikcl.dev/images/card-hello-right-memoji.png);
+    background-position: center;
+    background-size: cover;
+}
